@@ -60,3 +60,13 @@ Is internet exposure beneficial or detrimental to a child’s success?
  <br>Global internet usage by Country
  <br>(1960 - 2021)
 </details>
+
+## Technical Overview
+Examples of the cleaning and EDA include converting state abbreviations to their full names, converting multiple year columns into a single column, calculating percentages from counts of individuals, joining data frames, calculating correlation coefficients, and more.   
+<details>
+ <summary> Tools:</summary>
+- Python<br>
+- SQL<br>
+- Excel<br>
+- Tableau
+</details>
