@@ -14,7 +14,7 @@ As someone who plans to have kids, I am interested in the effects of childhood i
 ## Motivation
 <details>
  <summary> Its all about the kids!! </summary>
- I am a young adult planning on having a family, and I would like to know what will aid in my children’s success. Since the dominating appearance of the internet, much debate has been on the advantages and disadvantages of granting children internet access. I would like to see if there is any clear correlation between internet use and childhood success.
+ <br>I am a young adult planning on having a family, and I would like to know what will aid in my children’s success. Since the dominating appearance of the internet, much debate has been on the advantages and disadvantages of granting children internet access. I would like to see if there is any clear correlation between internet use and childhood success.
 </details> 
 
 ## Data Question
@@ -65,43 +65,72 @@ Is internet exposure beneficial or detrimental to a child’s success?
 
 <details>
  <summary> Tools:</summary>
-- Python<br>
-- SQL<br>
-- Excel<br>
-- Tableau
+ <br>
+<p align="left"> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
+&nbsp;
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+&nbsp;
+<a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer"> <img src="https://play-lh.googleusercontent.com/37EzETO6gZyKmCg2kBIFX1e9gkubxZrVa5fHJ6yOaa7VvEShHjKv2RdtwnZt9Sk258s=w240-h480-rw" alt="excel" width="40" height="40"/> </a> 
+&nbsp;
+<a href="https://www.tableau.com/" target="_blank" rel="noreferrer"> <img src="https://pbs.twimg.com/profile_images/1268207088683020288/d9agkn4h_400x400.jpg" alt="powerbi" width="40" height="40"/> </a> </p>
 </details>
 
 <details>
  <summary> Data Acquisition </summary>
-Finding the data was by far the most challenging part of this project. Once I found my data sources, the real fun began. The fun being building progams to collect the data from the source. For example, I constructed a for loop that pulled in test score information for each year, each state (in the USA), each grade, and each subject. I also discovered the ESF Database Migration Toolkit which allowed me to pull in Microsft Access file types into pgAdmin where I could then write SQL querries to pull in the exact information I needed.
+<br>Finding the data was by far the most challenging part of this project. Once I found my data sources, the real fun began. The fun being building progams to collect the data from the source. For example, I constructed a for loop that pulled in test score information for each year, each state (in the USA), each grade, and each subject. I also discovered the ESF Database Migration Toolkit which allowed me to pull in Microsft Access file types into pgAdmin where I could then write SQL querries to pull in the exact information I needed.
 </details>
 
 <details>
  <summary> Data Cleaning and EDA </summary>
-Data cleaning and EDA included converting state abbreviations to their full names, converting multiple year columns into a single column, calculating percentages from counts of individuals, joining data frames, calculating correlation coefficients, sorting survey questions, replacing categorical numbers with their respective text, and making sure I had suifficient yearly records to accuralety assess internet access trends.
+<br>Data cleaning and EDA included converting state abbreviations to their full names, converting multiple year columns into a single column, calculating percentages from counts of individuals, joining data frames, calculating correlation coefficients, sorting survey questions, replacing categorical numbers with their respective text, and making sure I had suifficient yearly records to accuralety assess internet access trends.
 </details>
 
 <details>
  <summary> Dashboarding </summary>
-*in progress of writing*
+<br>I used Tableau to display my findings with line plots, scatter plots, and interactive maps. I chose to to use navigation buttons instead of a story, so I could keep some additional features that don't transfer easily into stories. Overall, the dashboard is highly interactive and contains immediate insights into correllations between the internet and childhood success. 
 </details>
 
 ## Data Insights
 
 <details>
+ <summary> Children's Academic Proficency (USA)</summary>
+<br>In the USA, 4th and 8th graders' composite scores for reading and mathematics have positve medium to positive strong correlations with home internet access. <br><br>
+ 
+12th graders' composite scores for reading and mathematics have negative medium correlations with internet access.
+</details>
+
+<details>
+ <summary> Children's Fitness (USA and Global) </summary>
+<br>For the scope of the USA, 4th, 8th, and 12th graders have very strong and postive correlations with weight problems and internet access.<br><br>
+ 
+On a global scope, all grades have positive medium correlations with weight problems and internet access.
+</details>
+
+<details>
+ <summary> Children's Mental Health (USA) </summary>
+<br>Child suicide rates have been fairly consistent since 1991 with only a 2% increase when looking at 2019. Becuase of this, there is a postive and weak correlation between child suicide and internet access.<br><br>
+ 
+Physical fighting in children and their internet access have a negative and strong correlation. <br>
+ 
+The percentage of children feeling sad or hopeless has a negative and medium correlation to internet access.
+ 
+</details>
+
+## Future Implications
+<details>
  <summary> Children's Academic Proficency </summary>
-*in progress of writing*
+ <br>
+ Since 4th and 8th graders have positive correlations to internet access and 12th grades have a negative correlation, screen time and what each grade is primarily doing while on the internet should be looked into next.
 </details>
 
 <details>
  <summary> Children's Fitness </summary>
-*in progress of writing*
+ <br>
+ The current study only looks at obese and overweight as described by an individuals BMI. However, BMI does not account for body composition such as muscle mass or body fat percentages. Because of this, the next factors to be assessed for childhood fitness and their internet access should be the amount of physical activity they participate in and the food groups they are consuming. 
 </details>
 
 <details>
  <summary> Children's Mental Health </summary>
-*in progress of writing*
+ <br>
+ Currently, the CDC only has data on children feeling sad or hopeless starting in 2003. I believe having data on this measure prior to anyone having access to the internet will improve the accuracy of the correlation coefficient. Additionally, this project looks into physical bullying, but online bullying should also be assessed.
 </details>
-
-## Future Implications
-*in progress of writing*
