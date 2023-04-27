@@ -5,7 +5,7 @@
 * [Motivation](#Motivation)
 * [Data Questions](#Data-Question)
 * [Data Sources](#Data-Sources)
-* [Technical Overview](#Technical-Overview)
+* [Technical Process](#Technical-Process)
 * [Future Implications](#Future-Implications)
 
 ## Overview
@@ -20,7 +20,7 @@ As someone who plans to have kids, I am interested in the effects of childhood i
 ## Data Question
 Is internet exposure beneficial or detrimental to a child’s success?
 <details>
- <summary> MVP Questions:</summary>
+ <summary> MVP Questions</summary>
  
 1.	As the number of children (ages 3 – 17) have increased internet access, do test scores for 4th, 8th, or 12th-grade increase?
 <br>(Scale: Country, United States of America)
@@ -33,7 +33,7 @@ Is internet exposure beneficial or detrimental to a child’s success?
 
 </details>
 <details>
- <summary> Stretch Questions:</summary>
+ <summary> Stretch Questions</summary>
  
 4.	For each MVP question, is there a significant difference in the correlation coefficient at a global versus country scale?
 
@@ -61,8 +61,8 @@ Is internet exposure beneficial or detrimental to a child’s success?
  <br>(1960 - 2021)
 </details>
 
-## Technical Overview
-Examples of the cleaning and EDA include converting state abbreviations to their full names, converting multiple year columns into a single column, calculating percentages from counts of individuals, joining data frames, calculating correlation coefficients, and more.   
+## Technical Process
+
 <details>
  <summary> Tools:</summary>
 - Python<br>
@@ -70,3 +70,24 @@ Examples of the cleaning and EDA include converting state abbreviations to their
 - Excel<br>
 - Tableau
 </details>
+
+<details>
+ <summary> Data Acquisition </summary>
+Finding the data was by far the most challenging part of this project. Once I found my data sources, the real fun began. The fun being building progams to collect the data from the source. For example, I constructed a for loop that pulled in test score information for each year, each state (in the USA), each grade, and each subject. I also discovered the ESF Database Migration Toolkit which allowed me to pull in Microsft Access file types into pgAdmin where I could then write SQL querries to pull in the exact information I needed.
+</details>
+
+<details>
+ <summary> Data Cleaning and EDA </summary>
+Data cleaning and EDA included converting state abbreviations to their full names, converting multiple year columns into a single column, calculating percentages from counts of individuals, joining data frames, calculating correlation coefficients, sorting survey questions, replacing categorical numbers with their respective text, and making sure I had suifficient yearly records to accuralety assess internet access trends.
+</details>
+
+<details>
+ <summary> Dashboarding </summary>
+*in progress of writing*
+</details>
+
+## Data Insights
+*in progress of writing*
+
+## Future Implications
+*in progress of writing*
