@@ -87,7 +87,21 @@ Data cleaning and EDA included converting state abbreviations to their full name
 </details>
 
 ## Data Insights
+
+<details>
+ <summary> Children's Academic Proficency </summary>
 *in progress of writing*
+</details>
+
+<details>
+ <summary> Children's Fitness </summary>
+*in progress of writing*
+</details>
+
+<details>
+ <summary> Children's Mental Health </summary>
+*in progress of writing*
+</details>
 
 ## Future Implications
 *in progress of writing*
