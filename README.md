@@ -94,7 +94,7 @@ Is internet exposure beneficial or detrimental to a child’s success?
 
 <details>
  <summary> Children's Academic Proficency (USA)</summary>
-<br>In the USA, 4th and 8th graders' composite scores for reading and mathematics have positve medium to positive strong correlations with home internet access. <br><br>
+<br>4th and 8th graders' composite scores for reading and mathematics have positve medium to positive strong correlations with home internet access. <br><br>
  
 12th graders' composite scores for reading and mathematics have negative medium correlations with internet access.
 </details>
